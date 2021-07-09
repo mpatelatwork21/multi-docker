@@ -11,7 +11,7 @@ script:
 
 after_success:
   - docker build -t mpatelatwork21/multi-client ./client
-  - docker build -t mpatelatwork21/multi-ngix ./nginx
+  - docker build -t mpatelatwork21/multi-nginx ./nginx
   - docker build -t mpatelatwork21/multi-server ./server
   - docker build -t mpatelatwork21/multi-worker ./worker
   # Log in to the docker CLI
