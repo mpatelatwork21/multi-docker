@@ -11,7 +11,7 @@
 
     {
       "name": "server",
-      "image": "mpatelatwork21/multi-erver",
+      "image": "mpatelatwork21/multi-server",
       "hostname": "api",
       "essential": false,
       "memory": 128
