@@ -18,7 +18,7 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   # Take those images and push them to doker
   - docker push mpatelatwork21/multi-client
-  - docker push mpatelatwork21/multi-ngix
+  - docker push mpatelatwork21/multi-nginx
   - docker push mpatelatwork21/multi-server
   - docker push mpatelatwork21/multi-worker
 
