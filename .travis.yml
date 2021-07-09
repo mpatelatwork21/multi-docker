@@ -21,3 +21,18 @@ after_success:
   - docker push mpatelatwork21/multi-ngix
   - docker push mpatelatwork21/multi-server
   - docker push mpatelatwork21/multi-worker
+region: us-east-2
+app: multi-docker
+env: Multidocker-env
+bucket_name: elasticbeanstalk-us-east-2-704835261704
+bucket_path: "docker-multi"
+access_key_id: $AWS_ACCESS_KEY
+secret_access_key: $AWS_SECRET_KEY
+# REDIS_HOST: multi-docker-redis.lfst8l.0001.use2.cache.amazonaws.com
+# REDIS_PORT: 6379
+# PGUSER: postgres
+# PGPASSWORD: postgres_password
+# PGHOST: multi-docker-postgres.crkmhfqupw7n.us-east-2.rds.amazonaws.com
+# PGPORT: 5432
+# Secret Access Key: FYEWkKVG/1slTFhLtAEkJRbbRt8Au5poNNLZxorG
+# Access Key ID: AKIA2IG3USUEJRSSJXHM
